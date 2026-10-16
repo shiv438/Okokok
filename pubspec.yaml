@@ -1,0 +1,16 @@
+name: editpro
+description: EditPro, a simple touch-first video editor.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+  file_picker: ^8.1.2
+
+flutter:
+  uses-material-design: true
